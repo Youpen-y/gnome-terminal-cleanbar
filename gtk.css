@@ -1,0 +1,27 @@
+/* Hide the terminal's headerbar (titlebar) completely */
+terminal-window headerbar {
+	min-height: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+/* Hide every child element inside the headerbar as well */
+terminal-window headerbar * {
+	min-height: 0;
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+}
+
+/* Apply 8 px rounded corners to the window’s decoration layer */
+terminal-window decoration {
+	border-radius: 8px;
+}
+
+/* Apply 8 px rounded corners to the terminal window itself */
+terminal-window {
+	border-radius: 8px;
+}

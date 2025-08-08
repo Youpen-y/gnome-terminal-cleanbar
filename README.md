@@ -1,0 +1,50 @@
+gnome-terminal-cleanbar
+===
+
+Before:
+![Original terminal](https://private-user-images.githubusercontent.com/44435912/475872191-903f5bfd-a7ef-4b11-a16c-389790e29a58.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQ2MzA1NjgsIm5iZiI6MTc1NDYzMDI2OCwicGF0aCI6Ii80NDQzNTkxMi80NzU4NzIxOTEtOTAzZjViZmQtYTdlZi00YjExLWExNmMtMzg5NzkwZTI5YTU4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODA4VDA1MTc0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUxMzgwNzgzMDA3ZjEyZTRjNjFjZTJmNDNkYzgyNTIxZTQ2M2Y3YzllOTNlNDEwYzczZDdhMjNjZWNhZDc3MmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ZMF_G7YQJKmyypPfH4ZLg9aZGiLuBZh6pXMe1DnXijM)
+
+After:
+![Terminal with cleanbar](https://private-user-images.githubusercontent.com/44435912/475872307-f25f0531-7f4b-46af-be3d-5c96d9ef1da6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQ2MzA1NjgsIm5iZiI6MTc1NDYzMDI2OCwicGF0aCI6Ii80NDQzNTkxMi80NzU4NzIzMDctZjI1ZjA1MzEtN2Y0Yi00NmFmLWJlM2QtNWM5NmQ5ZWYxZGE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODA4VDA1MTc0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMxYjc5ZDUwMmI5ZWI5MjNiNjY4Njg5NmJkNzdlZWI2YmJhOTUxMTcxMTNlN2Q1OTMxMzBjYjg4ZjBkMzZhYTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.cu4JXEY6NUc7ZBUbuyoSNJSIjiqOiKiSm73fWxwilHM)
+
+
+Installation:
+===
+- Clone
+```bash
+git clone https://github.com/Youpen-y/gnome-terminal-cleanbar.git
+```
+
+- Install
+```bash
+cd gnome-terminal-cleanbar
+chmod +x install.sh
+./install.sh
+```
+
+After Installation, you can control the terminal with mouse and keyshorts.
+
+- `Ctrl+w`: close the terminal
+- `Super+h`: hide the terminal
+
+Recommended Custom themes of Gnome Terminal:
+- Background: #0D1012
+- Text: #B6C9D4
+
+*Note*: The hide and close buttons are still there — just hidden via transparency, not actually removed.
+
+Other Repos:
+[terminal-guillotine](https://github.com/safesintesi/terminal-guillotine)
+
+
+ ❤️ Support
+===
+If you find this helpful, please star it and consider showing your support!
+
+- Alipay/WeChat
+<table>
+    <tr>
+        <td><img src="https://private-user-images.githubusercontent.com/44435912/475899040-4625eced-abca-4c99-90bd-f7c27c7c97bb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQ2MzYzNzEsIm5iZiI6MTc1NDYzNjA3MSwicGF0aCI6Ii80NDQzNTkxMi80NzU4OTkwNDAtNDYyNWVjZWQtYWJjYS00Yzk5LTkwYmQtZjdjMjdjN2M5N2JiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODA4VDA2NTQzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM1MWNjZjk4MzBmZGM5MjI2ODI2N2M3ZTAxMjM2NTMzYjdhYTE5YmE0NjU0NjA2MDc3MDI4ODlhOWM2NWM5MDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AgtJAhCJ72SgM_wNLRA-KGM4SViLfiTZfIGTDRdSMaY" width="140" height="176" alt="drawing"/></td>
+        <td><img src="https://private-user-images.githubusercontent.com/44435912/475908736-81a7de28-c046-43d4-9468-e4761e5afbe1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQ2Mzg1NDQsIm5iZiI6MTc1NDYzODI0NCwicGF0aCI6Ii80NDQzNTkxMi80NzU5MDg3MzYtODFhN2RlMjgtYzA0Ni00M2Q0LTk0NjgtZTQ3NjFlNWFmYmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODA4VDA3MzA0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJjMjllYjMzNmVhY2QxM2IyYjc2NzMxMmZiMDA1MjY4NjY1YzZlNTY2MTBlMGZkMjA3YzZmNjRhZDVkNDg4NjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.jg6F7XlYzxfYP385WrnZ6r4M_O8fopaKqcwrN9LLp08" width="105" height="176" alt="drawing"/></td>
+    </tr>
+</table>
